@@ -1,5 +1,7 @@
 # Green Energy
 
+## Github Page: https://vicenzoc.github.io/Green_Energy/
+
 ## Descrição
 
 Este projeto visa desenvolver uma página web informativa sobre consumo consciente de energia e eficiência energética. O objetivo é fornecer aos clientes informações sobre os maiores consumidores de energia, destacar o conceito de consumo consciente e apresentar formas práticas de economizar energia no dia a dia. Além disso, a página inclui uma seção dedicada às novas ferramentas e tecnologias voltadas para Green IT e eficiência energética, destacando soluções inovadoras que contribuem para a sustentabilidade e redução do impacto ambiental.
