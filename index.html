@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo Consciente de Energia</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <script src="./script.js"></script>
+    <header>
+        <h1>Consumo Consciente de Energia</h1>
+        <nav>
+            <ul>
+                <li><a href="#formas-economizar">Formas de Economizar</a></li>
+                <li><a href="./maioresConsumidores.html">Maiores Consumidores</a></li>
+                <li><a href="./greenIt.html">Green IT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="maioresConsumidores">
+            <h2>Maiores Consumidores de Energia</h2>
+            <div class="carousel">
+                <div class="carousel-img">
+                    <img src="./src/imgs/airConditioner.jpg" alt="Ar condicionado">
+                    <div class="caption">Ar condicionado</div>
+                </div>
+                <div class="carousel-img">
+                    <img src="./src/imgs/shower.jpg" alt="Chuveiro elétrico">
+                    <div class="caption">Chuveiro elétrico</div>
+                </div>
+                <div class="carousel-img">
+                    <img src="./src/imgs/fridge.jpg" alt="Geladeira">
+                    <div class="caption">Geladeira</div>
+                </div>
+                <div class="carousel-img">
+                    <img src="./src/imgs/dishWasher.jpg" alt="Lava louças">
+                    <div class="caption">Lava louças</div>
+                </div>
+                <div class="carousel-img">
+                    <img src="./src/imgs/microwave.jpg" alt="Micro-ondas">
+                    <div class="caption">Micro-ondas</div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <div class="page active"></div>
+                <div class="page"></div>
+                <div class="page"></div>
+                <div class="page"></div>
+                <div class="page"></div>
+            </div>
+
+            <div class="buttons">
+                <button onclick="prevPage()" aria-label="Ir para a página anterior">ANTERIOR</button>
+                <button onclick="nextPage();" aria-label="Ir para a próxima página">PROXIMO</button>
+            </div>
+        </section>
+
+        <section id="formas-economizar">
+            <h2>Formas Práticas de Economizar Energia</h2>
+            <form id="formulario">
+                <label for="email">Inscreva-se para receber dicas:</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+                <button type="submit" id="submitButton">Enviar</button>
+            </form>
+        </section>
+
+        <section id="green-it">
+            <h2>Green IT e Novas Tecnologias</h2>
+            <p>Green IT promove práticas sustentáveis em tecnologia da informação, 
+                com foco em eficiência energética e redução de impactos ambientais. 
+                Exemplos incluem data centers ecoeficientes e IA para otimização de 
+                energia.</p>
+            <a href="./greenIt.html" aria-label="Saiba mais sobre Green IT e novas tecnologias">Saiba mais</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Projeto de Consumo Consciente de Energia</p>
+    </footer>
+
+</body>
+
+</html>
